@@ -63,6 +63,8 @@ const Container = styled.div`
 
 const Menubar = styled.div`
     display: flex;
+    width: 100%;
+    justify-content: center;
     text-transform: uppercase;
     div{
         font-weight: 600;
@@ -79,6 +81,7 @@ const Menubar = styled.div`
 
 const RightMenu = styled.div`
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     text-transform: uppercase;
     a {

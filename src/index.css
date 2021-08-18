@@ -27,21 +27,5 @@ a {
     transform: translateY(3px);
   }
 }
-@keyframes fadeIn {
-  0%{
-    opacity: 0;
-  }
 
-  40% {
-    opacity: 0.5;
-  }
-
-  60% {
-    opacity: 0.75;
-  }
-
-  100%{
-    opacity: 1;
-  }
-}
 
